@@ -18,11 +18,11 @@ int main()
     }
     if(som_divi==nb){
         printf("\nLa somme de ses nombre est egal a %d \n",som_divi);
-        printf("%d est un nombre parfait \n");
+        printf("%d est un nombre parfait \n",nb);
     }else
     if(som_divi != nb){
         printf("\nLa somme de ses nombre est egal a %d \n",som_divi);
-        printf("%d n'est pas un nombre parfait \n");
+        printf("%d n'est pas un nombre parfait \n",nb);
     }
 
     return 0;
